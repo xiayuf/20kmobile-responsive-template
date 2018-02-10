@@ -1,0 +1,444 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>20kMobile - Epsilon Mobile Framework</title>
+	
+	<meta name="description" content="Code explained for the general structure of the template">
+	<meta name="author" content="Enabled">
+	<meta name="copyright" content="Enabled">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-09-10T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-20kmobile">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#faq" title="FAQ">FAQ</a></li>
+			<li><a href="#header_clear" title="Header Clear">Header Clear</a></li>
+			<li><a href="#header" title="Header">Header</a></li>
+			<li><a href="#header_menu" title="Header Menu">Header Menu</a></li>
+			<li><a href="#footer_menu" title="Footer Menu">Footer Menu</a></li>
+			<li><a href="#sidebar_menu" title="Sidebar Menu">Sidebar Menu</a></li>
+			<li><a href="#material_menu" title="Material Menu">Material Menu</a></li>
+			<li><a href="#homescreen_menu" title="Homescreen Menu">Homescreen Menu</a></li>
+			<li><a href="#using_skins" title="Using Skins">Using Skins</a></li>
+			<li><a href="#is_that_it" title="Is that it?">Is that it?</a></li>
+			<li><a href="#how_do_i_get_support" title="How do I get support?">How do I get support?</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Enabled 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>20kMobile</h1>
+	<h2>Epsilon Mobile Framework</h2>
+	<div id="documenter_buttons">
+		<a href="https://www.facebook.com/" class="btn btn-primary btn-large">Facebook</a> <a href="https://twitter.com/iEnabled" class="btn btn-large">Twitter</a> <a href="https://plus.google.com/105775801838187143320" class="btn btn-large">Google+</a> 
+	</div>
+	<hr>
+	<ul>
+	
+	<li>latest update: 09/10/2016</li>
+	<li>by: Enabled</li>
+	<li><a href=""></a></li>
+	
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="faq">
+	<div class="page-header"><h3>FAQ</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">What are these starters I keep seeing?</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Each starter represents an empty template to begin with, having the components in the name present.</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">How do I install the item?</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Copy and paste all the items in the code folder to your server to your desired location.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">What are those i class&quot;fa &quot; things?</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	That is Font Awesome, the amazing icons we used for this item you can learn more about them and find a cheatsheet on how to use them here&nbsp;http://fortawesome.github.io/Font-Awesome/icons/</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">How do I change the contact form information?</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	There is only one PHP file in the item, please open that item and replace the email address with yours.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">How do I make the login page / sign in page / calendar page / news / store / blog &nbsp;to work?&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Please remember that this is a&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">site template</span>&nbsp;and is not connected to any CMS or any databases, so these features are mearly template designs, they are HTML and CSS and need to be connected to a back-end to work.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: Arial, Verdana, sans-serif; vertical-align: baseline; color: rgb(34, 34, 34);">&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">What is the Mobile UI section?</span></span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	The mobile UI section is comprised of elements that you can use to create an app. Please note that converting the item to an app is entirely up to you. If these elements don&#39;t suit you and you wish to reduce the page load, simply open framework.css and scroll to the very bottom. You can remove them from there.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<b>I want to add my own JS, it&#39;s not working, why?</b></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Add any JS you want starting from line 4. THis is very important since the AJAX refreshes the functions and they are present starting with line 3 and down to 955. When you tap a link that entire zone is refreshed. Be sure to import your script in all pages you want it to work. My suggestion is to copy the min version of your script in plugins.js and import it there as we imported ours.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">This uses AJAX? How to I use a simple link? They don&#39;t work!&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Any link that points outside the main item should have the class <strong>default-link</strong>. This will terminate the smooth state / ajax page loading for that link and it will work like anyother regular link!&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">I don&#39;t want AJAX. I want the old school loading style. How?&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	That&#39;s actually very easy. Open custom.js and delete lines 956 to 998</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">I&#39;m a tech guru. I want more API&#39;s for the AJAX. I need them.&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Everything you need to know to customize the AJAX and more API&#39;s can be located on the plugin page over at&nbsp;https://github.com/miguel-perez/smoothState.js</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">I want to build an app using PhoneGap and Cordova. Can you help me?&nbsp;</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	We only provide support for the item as is, meaning a site template. PhoneGap and Cordova&#39;s pages state clearly that they work wiht&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">ANY</span>&nbsp;html, css and JS item on the planet. So compatiiblity is not an issue. Furthermore, we use the latest and easiest code techniques to assure there won&#39;t be issues.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Do I need an extended license?</span></p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	If your app will be paid or have in-app paid features, yes. You do. We will pursue legal action against any app on any application store that uses our code and can&#39;t provide a license for an extended license use.&nbsp;</p>
+</section>
+<section id="header_clear">
+	<div class="page-header"><h3>Header Clear</h3><hr class="notop"></div>
+<p>
+	Clearing the header / showing content so it&#39;s not under the header is quite easy.</p>
+<p>
+	&lt;div id=&quot;page-content&quot; class=&quot;SECONDARY_CLASS&quot;&gt;&lt;!--Read the structure, it goes here--&gt;&lt;/div&gt;</p>
+<p>
+	On the main ID class where all your content goes, meaning, page-content, add the secondary class called&nbsp;<strong>header-clear</strong> to clear the exact size of the header in case of sliders&nbsp;and&nbsp;<strong>header-clear-large&nbsp;</strong>to clear another 30 pixels so there&#39;s some space between them&nbsp;</p>
+</section>
+<section id="header">
+	<div class="page-header"><h3>Header</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;header secondary_class&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;header-icon-1 show-left-sidebar&quot;&gt;&lt;i class=&quot;fa fa-navicon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;header-icon-2 show-header-menu&quot;&gt;&lt;i class=&quot;fa fa-angle-down&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;header-logo&quot;&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;header-icon-3 show-modal-menu&quot;&gt;&lt;i class=&quot;fa fa-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;header-icon-4 show-right-sidebar&quot;&gt;&lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;</pre>
+<div>
+	Let&#39;s explain everything in basic human words, so you don&#39;t get headaches trying to understand this. It&#39;s quite VERY simple!&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	The header is comprised of 5 main elements. 4 icons and the logo. Each element is placed using the first class, header-icon-NUMBER while the second class dictates the activation for that element. For example, heading-icon-1 in our case will deploy the left sidebar, but, if you want to use it as a link, you just remove the secondary class and fill in the href.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	Replacing the logo is simple as well. You can locate the header-logo class inside style.css on line 184. Replace the image there with yours and make sure to change the widht, height and background-size parameteres to half of your image to maintain aspect ratio.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	You can choose between the following secondary classes&nbsp;<strong>header-dark / header-light / header-transparent</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="header_menu">
+	<div class="page-header"><h3>Header Menu</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;header-menu-overlay&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;header-menu secondary_class&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;active-header-item&quot;&gt;&lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt;Homepage&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;Features&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-camera&quot;&gt;&lt;/i&gt;Media&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-file-o&quot;&gt;&lt;/i&gt;SiteMap&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt;Contact&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;close-header-menu&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;Close&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt; </pre>
+<div>
+	The header menu as shown above is built using 2 main elements. An overlay and the menu itself.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Inside the menu you&#39;ll find an anchor that houses an icon to the left, the item text and an icon to the right. To activate an item, simply give it the class active-header-item.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	You can choose the following secondary classes&nbsp;<strong>header-menu-dark&nbsp;</strong>and&nbsp;<strong>header-menuplight</strong></div>
+</section>
+<section id="footer_menu">
+	<div class="page-header"><h3>Footer Menu</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;footer-menu&quot;&gt;
+    &lt;div class=&quot;menu-bottom-bar menu-bottom-bar-five menu-bottom-bar-text dark-menu-bar&quot;&gt;
+        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt;&lt;em&gt;Home&lt;/em&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;&lt;em&gt;Cog&lt;/em&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;selected-bottom-bar&quot;&gt;&lt;i class=&quot;fa fa-camera&quot;&gt;&lt;/i&gt;&lt;em&gt;Camera&lt;/em&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-image&quot;&gt;&lt;/i&gt;&lt;em&gt;Folios&lt;/em&gt;&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt;&lt;em&gt;Contact&lt;/em&gt;&lt;/a&gt;
+        &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>
+	The footer menu can have 2, 3, 4 and 5 icons. these can be created by replacing <b>menu-bottom-bar-five&nbsp;</b>with&nbsp;<strong>menu-bottom-bar-four / menu-bottom-bar-three / menu-bottom-bar-two</strong></p>
+<p>
+	To change the color of the entire menu you can replace&nbsp;<strong>dark-menu-bar&nbsp;</strong>with&nbsp;<strong>light-menu-bar</strong></p>
+<p>
+	If you wish to keep only icons and no text, remove the&nbsp;<strong>menu-bottom-bar-text</strong> and also remove the em and text from the footer menu</p>
+</section>
+<section id="sidebar_menu">
+	<div class="page-header"><h3>Sidebar Menu</h3><hr class="notop"></div>
+<p>
+	<strong>Sidebar Menu Header Logo</strong></p>
+<pre class="prettyprint lang-html linenums">
+        &lt;div class=&quot;sidebar-header&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;sidebar-logo&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;    </pre>
+<p>
+	The sidebar header is present in the sidebars and in the sidebar submenus. You can replace the logo on line 105 and the settings for the width and height.</p>
+<p>
+	<strong>Creating a Menu Item</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;a class=&quot;menu-item&quot; href=&quot;page-sitemap.html&quot;&gt;
+     &lt;i class=&quot;fa fa-sitemap&quot;&gt;&lt;/i&gt;
+     &lt;em&gt;Sitemap&lt;/em&gt;
+     &lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;   </pre>
+<div>
+	<div>
+		Line 1 is the menu housing box&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		Line 2 is the icon, and the background of the icon. The available colors are presented at the bottom of this section</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		Line 3 is the text&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		Line 4 is the circle to the right&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		Line 5 closes the menu.&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		To make this item active, simply add the secondary class menu-item-active to line 1</div>
+</div>
+<p>
+	<strong>Creating a Sidebar Submenu Item</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;has-submenu&quot;&gt;
+    &lt;a class=&quot;menu-item show-submenu&quot; href=&quot;#&quot;&gt;
+        &lt;i class=&quot;fa fa-newspaper-o&quot;&gt;&lt;/i&gt;
+        &lt;em&gt;News&lt;/em&gt;
+        &lt;strong&gt;3&lt;/strong&gt;
+    &lt;/a&gt; 
+
+    &lt;div class=&quot;submenu&quot;&gt;
+        &lt;a class=&quot;submenu-item&quot; href=&quot;#&quot;&gt;   &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;&lt;em&gt;      News Page          &lt;/em&gt;&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a class=&quot;submenu-item&quot; href=&quot;#&quot;&gt;   &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;&lt;em&gt;      News Article       &lt;/em&gt;&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a class=&quot;submenu-item&quot; href=&quot;#&quot;&gt;   &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;&lt;em&gt;      News Article List  &lt;/em&gt;&lt;i class=&quot;fa fa-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/div&gt; 
+&lt;/div&gt;
+</pre>
+<div>
+	Line 1 is the main class called has-submenu to house all the menu that will follow</div>
+<div>
+	&nbsp;</div>
+<div>
+	Line 2,3,4,5,6 are the same elements as a regular menu item</div>
+<div>
+	&nbsp;</div>
+<div>
+	Lines 8,9,10,11,12 are the submenu, inside here there are anchors with text and icons.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	Line 13 closes the main menu.</div>
+<div>
+	&nbsp;</div>
+<div>
+	To make the submenu selected and activated, on line 2 add the third class submenu-active, on line 8 add the secondary class submenu-active and on the submenu anchor you want, add the class submenu-item-active.</div>
+<div>
+	&nbsp;</div>
+<div>
+	That&#39;s it! That&#39;s all there is to the sidebar structure</div>
+</section>
+<section id="material_menu">
+	<div class="page-header"><h3>Material Menu</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;material-menu material-menu-left material-menu-dark&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;material-menu-deploy&quot;&gt;
+        &lt;i class=&quot;fa fa-ellipsis-v bg-red-dark&quot;&gt;&lt;/i&gt;
+    &lt;/a&gt;    
+
+    &lt;a href=&quot;#&quot; class=&quot;material-menu-close&quot;&gt;
+        &lt;em class=&quot;material-label&quot;&gt;Close&lt;/em&gt;
+        &lt;i class=&quot;fa fa-times bg-red-dark scale-hover&quot;&gt;&lt;/i&gt;
+    &lt;/a&gt;    
+
+    &lt;a href=&quot;features-typography.html&quot; class=&quot;mm material-menu-1&quot;&gt;
+        &lt;em class=&quot;material-label&quot;&gt;Features&lt;/em&gt;
+        &lt;i class=&quot;fa fa-cog bg-orange-dark scale-hover&quot;&gt;&lt;/i&gt;
+    &lt;/a&gt;    
+&lt;/div&gt;
+
+&lt;div class=&quot;material-menu-background material-menu-dark-background&quot;&gt;&lt;/div&gt;</pre>
+<div>
+	The material menu can house up to 6 icons. This is done because of the fact that mobile devices have a limited available height, and although you may be rocking the biggest Note or Iphone out there chances are some of your users still have smaller devices. Further customizing of this is up to you at your own risk!&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	The material menu houses anchors that represent the circles. Each have 2 classes, mm and <strong>material-menu-NUMBER</strong> (up to 6)&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	You can choose the position of the menu by using the class <strong>material-menu-left</strong> or <strong>material-menu-right</strong> and change the background and color of it by replacing <strong>material-menu-dark</strong> with <strong>material-menu-light</strong> and <strong>material-dark-background</strong> with <strong>material-light-background</strong>.&nbsp;</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="homescreen_menu">
+	<div class="page-header"><h3>Homescreen Menu</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+    &lt;div class=&quot;home-main-icons&quot;&gt;
+        &lt;div class=&quot;home-slide-icons four-rows four-columns&quot;&gt;
+            &lt;a href=&quot;index.html&quot; class=&quot;icon-1&quot;&gt;&lt;i class=&quot;bg-red-dark fa fa-home&quot;&gt;&lt;/i&gt;&lt;em&gt;Home&lt;/em&gt;&lt;/a&gt;
+            &lt;a href=&quot;page-sitemap.html&quot; class=&quot;icon-2&quot;&gt;&lt;i class=&quot;bg-green-dark fa fa-cog&quot;&gt;&lt;/i&gt;&lt;em&gt;Features&lt;/em&gt;&lt;/a&gt;
+            &lt;a href=&quot;gallery-round.html&quot; class=&quot;icon-3&quot;&gt;&lt;i class=&quot;bg-blue-dark fa fa-camera&quot;&gt;&lt;/i&gt;&lt;em&gt;Galleries&lt;/em&gt;&lt;/a&gt;
+            &lt;a href=&quot;portfolio-one.html&quot; class=&quot;icon-4&quot;&gt;&lt;i class=&quot;bg-orange-dark fa fa-image&quot;&gt;&lt;/i&gt;&lt;em&gt;Portfolios&lt;/em&gt;&lt;/a&gt;                               
+        &lt;/div&gt;
+    &lt;/div&gt; </pre>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	The actual icons are housed insde two classes. One is use to animate them when swiping, the other is used to generate their numbers. Replace&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">four-rows&nbsp;</span>and&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">four-columns</span>&nbsp;with either&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">three-rows&nbsp;</span>and&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">three-columns</span>&nbsp;or&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">five-rows&nbsp;</span>and&nbsp;<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">five-columns</span>.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Be sure to use the right number of icons inside once you select a new value. For example, if you select 3 rows and 3 columns you can use 3 icons.&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Each icon anchor class, you will find the font-awesome icon required to generate the icon, and classes for the background color. Use the background colors exaplined in the feature documentation. We have a few available!&nbsp;</p>
+<div>
+	<strong>Generating the Large Icon Layout</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	The layout for the icons is added inside a slider, show below is it&#39;s strucutre</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="using_skins">
+	<div class="page-header"><h3>Using Skins</h3><hr class="notop"></div>
+<p>
+	Skins are incredibly easy to use and to switch in betwee, by default, we have 3 skin files included. skin_dark / skin_light / skin_material. To activate any of these skins, simply name it skin in the styles folder.&nbsp;</p>
+<p>
+	The dark and light skin have no special classes of their own, they simply reskin the entire page where that css is used, but the material skin being a bit more different needs some special classes to work with. These are very easy, and only require you to play with secondary classes on the content class</p>
+<p>
+	<strong>Using the Material Skin</strong></p>
+<p>
+	As you&#39;ve noticed the item&#39;s interior is split into&nbsp;<strong>content</strong>&nbsp;classes. Each content class by default will be turned into a material white backgrounded box with a shadow, the typical design of material. But there are some econdary control classes to better arange and edit it according to your needs&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;content SECONDARY_CLASS&quot;&gt;
+      &lt;!--  Your Content Here --&gt;
+&lt;/div&gt;</pre>
+<p>
+	The secondary classes offer you control offer the following</p>
+<p>
+	<strong>material-no-bottom &nbsp;/ material-no-top</strong>&nbsp;- removes the content bottom/top in case your elements inside already have one provided</p>
+<p>
+	<strong>material-half-bottom / material-half-top</strong>&nbsp;- adds only half the bottom/top of the content</p>
+<p>
+	<strong>material-full-bottom / material-full-top&nbsp;</strong>-&nbsp;adds the entire bottom/top of the content&nbsp;the bottom of it</p>
+<p>
+	<strong>no-material -&nbsp;</strong>removes the material design of the content</p>
+<p>
+	<strong>content-fullscreen-material</strong> - extends the box to the max left andmax right width of the screen without hiding the bottom and top shadow.&nbsp;this should be added wihtout the initilal&nbsp;<strong>content</strong> class or with the <b>content-fullscreen class</b></p>
+</section>
+<section id="is_that_it">
+	<div class="page-header"><h3>Is that it?</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Every page in the homepages section is built using elements provided and explained in the documentation, and in case you don&#39;t understand how to change them, we&#39;re at your service&nbsp;http://enableds.com/html-support/ all the time and we&#39;ll gladly assist you in anything you need to know that is related to the item as is ( a site template ) free of charge!&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	If you&#39;re interested in further customizing the item beyond what&#39;s outside the box ( meaning, add extra features ) we&#39;ll gladly assist you for a freelance fee!&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Please don&#39;t forget to rate 5 stars! We put a lot of time and effort into our files and into providing you with the best possible support!&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	Cheers!&nbsp;</p>
+<div class="alert alert-success" style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<strong>Please don&#39;t forget to read the other docuemntations provided. The features, pages, pageapps, galleries, portfolios are all explained and editing as well! Check them out for a better comprehension of the file functionallity!&nbsp;</strong></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	&nbsp;</p>
+</section>
+<section id="how_do_i_get_support">
+	<div class="page-header"><h3>How do I get support?</h3><hr class="notop"></div>
+<p>
+	Our support is always here for you, and all you have to do is send us a message through our support script&nbsp;http://enableds.com/html-support/ and we&#39;ll get back to you as soon as humanly possible ( 95% of cases within 12 hours, 5% in tops 48 hours )&nbsp;</p>
+<p>
+	Thank you for being an awesome buyer, and please don&#39;t forget to rate 5 stars! It helps us so much!&nbsp;</p>
+<p>
+	Cheers!</p>
+<p>
+	Enabled</p>
+</section>
+
+	</div>
+</body>
+</html>
